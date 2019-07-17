@@ -62,7 +62,7 @@ module.exports={
     plugins: [
         new HtmlWebpackPlugin(
             {
-                template: 'echart.html',// 模板文件
+                template: 'echart.html',
                 filename: 'index.html'
             }
         ),

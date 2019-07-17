@@ -1,8 +1,8 @@
 let alltotal = 0;
 let total = [];
 let list = {};
+const base = 30000;
 for (let i = 0; i< 36; i++) {// 每个店总目标的随机数
-    let base = 30000;
     let j = Math.ceil((Math.random() - 0.5) * 10000);
     let num = base + j
     total.push(num);
